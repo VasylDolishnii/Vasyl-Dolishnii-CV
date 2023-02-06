@@ -1,4 +1,36 @@
 .left-side {
   width: 370px;
   background-color: $left-bg;
+  color: $leters;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  h2 {
+    padding-top: 45px;
+  }
+  &__cv-photo {
+    width: 360px;
+    height: 360px;
+    border: 4px solid $img-border;
+    border-radius: 50%;
+    margin: 40px 0 51px 4px;
+  }
+  &__contents-block {
+    padding-left: 47px;
+  }
+  &__contact-lincs {
+    color: $leters;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+  }
+  &__list-gold {
+    color: $golden-leters-dot;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style-position: inside;
+  }
+  &__list-white {
+    color: $leters;
+  }
 }

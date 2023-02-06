@@ -1,10 +1,15 @@
 main {
   display: flex;
   justify-content: center;
-  max-width: 1280px;
   flex-wrap: wrap;
+  width: 1200px;
+  margin: 0 auto;
+  background: $leters;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 body {
   display: flex;
   justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: $body-bg;
 }
