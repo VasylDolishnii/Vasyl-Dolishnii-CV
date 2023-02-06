@@ -19,7 +19,10 @@
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.3",
-    "parcel": "^2.8.3",
+    "parcel": "latest",
     "posthtml-include": "^1.7.4"
+  },
+  "dependencies": {
+    "swiper": "^8.4.6"
   }
 }
