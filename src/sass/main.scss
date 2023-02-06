@@ -1,4 +1,5 @@
-/*
- * Główny plik dla stylów.
- * Wszystkie partials podłączamy tutaj.
- */
+@import './utils/vars';
+@import './utils/global';
+
+@import './partials/left-side';
+@import './partials/right-side';
