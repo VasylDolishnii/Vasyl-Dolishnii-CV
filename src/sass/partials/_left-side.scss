@@ -34,3 +34,9 @@
     color: $leters;
   }
 }
+@media (max-width: 1050px) {
+  .left-side {
+    width: 680px;
+    text-align: center;
+  }
+}
